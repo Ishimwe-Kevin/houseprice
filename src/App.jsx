@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:5000/predict';
+const API_URL = 'https://rwanda-house-price-ai-model.onrender.com/predict';
 
 const DISTRICTS = [
   'Gasabo', 'Kicukiro', 'Nyarugenge',
